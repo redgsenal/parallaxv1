@@ -1,0 +1,52 @@
+#home { 
+  background: url(../img/home-bg.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+
+article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%;
+  font-size: 100px;
+  font-weight: bold;
+}
+ 
+#home article {   
+  color: black; 
+}
+ 
+#about { 
+  background: url(../img/about-bg.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about article {
+  color: yellow;
+}
+
+#profile { 
+  background: url(../img/profile-bg.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#profile article {
+  color: blue;
+}
